@@ -9,9 +9,8 @@
   "keywords": ["puppeteer", "express", "bot", "traffic", "automation"],
   "author": "Your Name",
   "license": "MIT",
-   "dependencies": {
+  "dependencies": {
     "express": "^4.18.4",
-    "puppeteer": "^21.3.8",
     "puppeteer-core": "^21.3.8",
     "puppeteer-extra": "^3.3.4",
     "puppeteer-extra-plugin-stealth": "^2.11.1"
