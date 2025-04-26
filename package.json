@@ -1,0 +1,29 @@
+{
+    "name": "user-agent-rotator",
+    "version": "1.0.0",
+    "description": "A script that visits websites using random user agents and logs the results",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "test": "echo \"No tests specified\" && exit 0"
+    },
+    "keywords": [
+      "puppeteer",
+      "user-agent",
+      "automation",
+      "web scraping",
+      "stealth"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+      "puppeteer-extra": "^4.0.0",
+      "puppeteer-extra-plugin-stealth": "^2.7.3",
+      "fs-extra": "^10.0.0",
+      "path": "^0.12.7"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.15"
+    }
+  }
+  
