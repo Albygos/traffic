@@ -1,17 +1,30 @@
 {
   "name": "traffic-bot-server",
   "version": "1.0.0",
-  "description": "A simple traffic bot using Express and Puppeteer",
+  "description": "A simple traffic bot using Express, Puppeteer, and Stealth plugin.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
-  "keywords": ["puppeteer", "express", "bot", "traffic", "automation"],
+  "keywords": [
+    "puppeteer",
+    "puppeteer-core",
+    "bot",
+    "traffic-generator",
+    "express",
+    "automation"
+  ],
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.4",
+    "puppeteer": "^21.3.8",
+    "puppeteer-core": "^21.3.8",
     "puppeteer-extra": "^3.3.4",
     "puppeteer-extra-plugin-stealth": "^2.11.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
   }
 }
