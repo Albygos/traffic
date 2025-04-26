@@ -1,28 +1,22 @@
 {
-  "name": "user-agent-rotator",
+  "name": "puppeteer-traffic-bot",
   "version": "1.0.0",
-  "description": "A script that visits websites using random user agents and logs the results",
-  "main": "index.js",
+  "description": "A simple traffic bot using Puppeteer and Express.",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"No tests specified\" && exit 0"
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.4",
+    "puppeteer-extra": "^3.3.4",
+    "puppeteer-extra-plugin-stealth": "^2.11.1"
   },
   "keywords": [
     "puppeteer",
-    "user-agent",
-    "automation",
-    "web scraping",
-    "stealth"
+    "traffic",
+    "bot",
+    "express"
   ],
   "author": "Your Name",
-  "license": "MIT",
-  "dependencies": {
-    "puppeteer-extra": "^3.3.4",
-    "puppeteer-extra-plugin-stealth": "^2.7.3",
-    "fs-extra": "^10.0.0",
-    "path": "^0.12.7"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
-  }
+  "license": "MIT"
 }
